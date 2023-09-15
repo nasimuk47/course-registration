@@ -6,23 +6,23 @@
         "title": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": 15000,
         
-        "credit": "1hr"
+        "credit": 1 
     },
     {
         "id": "789012",
         "img": "https://i.ibb.co/gwfkyyZ/Rectangle-2-1.png",
         "name": "Introduction to Algorithms",
-        "title": "Introduction to Algorithms is a widely renowned textbook in the field of computer science and algorithms.",
+        "title": "Introduction to Algorithms is a widely renowned textbook in the field of computer science and algorithms. ",
         "price": 25000,
-        "credit": "2hr"
+        "credit": 2
     },
     {
         "id": "345678",
         "img": "https://i.ibb.co/xGMHLPq/Rectangle-2-2.png",
         "name": "Introduction to C++ for DSA",
-        "title": "Introduction to C++ for DSA refers to learning the C++ programming language as a prerequisite for studying Data Structures and Algorithms (DSA).",
+        "title": "Introduction to C++ for DSA refers to learning the C++ programming language as a prerequisite for studying Data.",
         "price": 10000,
-        "credit": "10hr"
+        "credit": 10
     },
     {
         "id": "901234",
@@ -30,7 +30,7 @@
         "name": "Basic Data Structures",
         "title": "Basic data structures are fundamental building blocks in computer science and programming.",
         "price": 10000,
-        "credit": "5hr"
+        "credit": 5
     },
     {
         "id": "567890",
@@ -38,7 +38,7 @@
         "name": "Introduction to OOP Python",
         "title": "Object-Oriented Programming (OOP) is a programming paradigm that is widely used in Python. OOP is based on the concept of objects,",
         "price": 30000,
-        "credit": "6hr"
+        "credit": 6
     },
     {
         "id": "234567",
@@ -46,7 +46,7 @@
         "name": "Software Engineering",
         "title": "Software engineering is a systematic and disciplined approach to developing, designing, testing, and maintaining software systems.",
         "price": 5000,
-        "credit": "9hr"
+        "credit": 9
     },
     {
         "id": "890123",
@@ -54,7 +54,7 @@
         "name": "AWS, Cloud Computing",
         "title": "AWS provides a vast array of cloud services and solutions, including computing power, storage, databases, machine learning, analytics, IoT (Internet of Things), security, and more. ",
         "price": 10000,
-        "credit": "4hr"
+        "credit": 4
     },
     {
         "id": "456789",
@@ -62,7 +62,7 @@
         "name": "Database (MySQL)",
         "title": "MySQL is an open-source relational database management system (RDBMS) that is widely used for managing structured data. It is known for its speed, reliability, and ease of use",
         "price": 20000,
-        "credit": "7hr"
+        "credit": 7
     },
     {
         "id": "012345",
@@ -70,6 +70,6 @@
         "name": "Problem-Solving Part",
         "title": "The letters in PAR stand for problem or project (P), action (A) and results (R). You can use the response method to answer interview questions about your behavior in a previous role.",
         "price": 13000,
-        "credit": "12hr"
+        "credit": 12
     }
 ]
