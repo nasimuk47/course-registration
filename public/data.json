@@ -1,7 +1,7 @@
 [
     {
         "id": "123456",
-        "img": "https://i.ibb.co/G0cXxXn/Rectangle-2.png",
+        "img": "   https://i.ibb.co/xGMHLPq/Rectangle-2-2.png",
         "name": "Introduction to C Programming",
         "title": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": 15000,
@@ -10,7 +10,7 @@
     },
     {
         "id": "789012",
-        "img": "https://i.ibb.co/gwfkyyZ/Rectangle-2-1.png",
+        "img": " https://i.ibb.co/pLkGH5Z/Rectangle-2-3.png",
         "name": "Introduction to Algorithms",
         "title": "Introduction to Algorithms is a widely renowned textbook in the field of computer science and algorithms. ",
         "price": 25000,
@@ -18,7 +18,7 @@
     },
     {
         "id": "345678",
-        "img": "https://i.ibb.co/xGMHLPq/Rectangle-2-2.png",
+        "img": "https://i.ibb.co/m5wmBYp/Rectangle-2-4.png ",
         "name": "Introduction to C++ for DSA",
         "title": "Introduction to C++ for DSA refers to learning the C++ programming language as a prerequisite for studying Data.",
         "price": 10000,
@@ -26,7 +26,7 @@
     },
     {
         "id": "901234",
-        "img": "https://i.ibb.co/pLkGH5Z/Rectangle-2-3.png",
+        "img": "https://i.ibb.co/gwfkyyZ/Rectangle-2-1.png",
         "name": "Basic Data Structures",
         "title": "Basic data structures are fundamental building blocks in computer science and programming.",
         "price": 10000,
@@ -34,9 +34,9 @@
     },
     {
         "id": "567890",
-        "img": "https://i.ibb.co/m5wmBYp/Rectangle-2-4.png",
+        "img": "https://i.ibb.co/G0cXxXn/Rectangle-2.png ",
         "name": "Introduction to OOP Python",
-        "title": "Object-Oriented Programming (OOP) is a programming paradigm that is widely used in Python. OOP is based on the concept of objects,",
+        "title": "Object-Oriented Programming (OOP) is a programming paradigm that is widely used in Python. OOP is based on the concept .",
         "price": 30000,
         "credit": 6
     },
@@ -44,7 +44,7 @@
         "id": "234567",
         "img": "https://i.ibb.co/9VcR4sz/Rectangle-2-5.png",
         "name": "Software Engineering",
-        "title": "Software engineering is a systematic and disciplined approach to developing, designing, testing, and maintaining software systems.",
+        "title": "Software engineering is a systematic and disciplined approach to developing, designing, testing, and maintaining software.",
         "price": 5000,
         "credit": 9
     },

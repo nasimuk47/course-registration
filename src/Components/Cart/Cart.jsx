@@ -27,28 +27,17 @@ const Cart = ({ selectedCourses }) => {
         }
     }, [selectedCourses]);
 
-    const addToCart = (course) => {
-        const updatedTotalCreditHours =
-            totalCreditHours + parseInt(course.credit);
-
-        if (updatedTotalCreditHours > 20) {
-            toast.error("Total credit hours cannot exceed 20 hours.");
-        } else {
-            selectedCourses.push(course);
-        }
-    };
-
     const displayTotalCreditHours =
         totalCreditHours > 20 ? 20 : totalCreditHours;
 
     return (
-        <div>
+        <div className="">
             <div className="text-xl font-medium text-blue-600 mb-3">
                 Credit Hour Remaining: {20 - displayTotalCreditHours} hr
             </div>
             <hr />
 
-            <div className="text-xl font-bold mt-7">Selected Courses:</div>
+            <div className="text-xl font-bold mt-7 mb-5">Selected Courses:</div>
 
             <ol>
                 {selectedCourses.map((course, index) => (
@@ -58,14 +47,15 @@ const Cart = ({ selectedCourses }) => {
                 ))}
             </ol>
 
-            <div className="text-xl font-semibold">
+            <hr />
+
+            <div className="text-xl font-semibold mt-5">
                 Total Credit Hour: {displayTotalCreditHours} hr
             </div>
 
-            <div className="text-xl font-medium">
+            <div className="text-xl font-medium mb-5">
                 Total Price: {calculateTotalPrice()} <span>USD</span>
             </div>
-            <hr />
 
             <ToastContainer></ToastContainer>
         </div>

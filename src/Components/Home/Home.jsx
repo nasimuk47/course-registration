@@ -3,6 +3,9 @@
 
 import { useEffect, useState } from "react";
 import Cart from "../Cart/Cart";
+import { BsBook } from "react-icons/bs";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Home = () => {
     const [allcard, setAllCard] = useState([]);
@@ -15,13 +18,14 @@ const Home = () => {
     }, []);
 
     const handleSelectCourse = (course) => {
-        // Check if the course is already selected to avoid duplicates
         if (
             !selectedCourses.find(
                 (selectedCourse) => selectedCourse.id === course.id
             )
         ) {
             setSelectedCourses([...selectedCourses, course]);
+        } else {
+            toast.warning(`"this course name is already selected.`);
         }
     };
 
@@ -49,13 +53,11 @@ const Home = () => {
                                     </h2>
                                     <p className="mt-2">{singlecard.title}</p>
 
-                                    <div className="flex gap-2 justify-center mt-3">
+                                    <div className="flex gap-2 justify-center items-center mt-3">
                                         <p>
                                             <span>$</span> Price: 15000
                                         </p>
-
-                                        <div>icon</div>
-
+                                        <BsBook />
                                         <p>Credit: {singlecard.credit} hr</p>
                                     </div>
 
@@ -77,6 +79,7 @@ const Home = () => {
                     <Cart selectedCourses={selectedCourses} />
                 </div>
             </div>
+            <ToastContainer />
         </div>
     );
 };
