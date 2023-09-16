@@ -4,7 +4,7 @@
         "img": "   https://i.ibb.co/xGMHLPq/Rectangle-2-2.png",
         "name": "Introduction to C Programming",
         "title": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-        "price": 15000,
+        "price": 1500,
         
         "credit": 1 
     },
@@ -50,7 +50,7 @@
     },
     {
         "id": "890123",
-        "img": "https://i.ibb.co/GTR3v3G/Rectangle-2-6.png",
+        "img": "  https://i.ibb.co/6ZYqgDK/Rectangle-3-1.png",
         "name": "AWS, Cloud Computing",
         "title": "AWS provides a vast array of cloud services and solutions, including computing power, storage, databases, machine learning, analytics, IoT (Internet of Things), security, and more. ",
         "price": 10000,
@@ -66,7 +66,7 @@
     },
     {
         "id": "012345",
-        "img": "https://i.ibb.co/6ZYqgDK/Rectangle-3-1.png",
+        "img": "https://i.ibb.co/GTR3v3G/Rectangle-2-6.png",
         "name": "Problem-Solving Part",
         "title": "The letters in PAR stand for problem or project (P), action (A) and results (R). You can use the response method to answer interview questions about your behavior in a previous role.",
         "price": 13000,

@@ -43,7 +43,7 @@ const Home = () => {
                                 <figure className="px-10 pt-10">
                                     <img
                                         src={singlecard.img}
-                                        alt={singlecard.name}
+                                        alt=""
                                         className="rounded-xl"
                                     />
                                 </figure>
@@ -55,7 +55,8 @@ const Home = () => {
 
                                     <div className="flex gap-2 justify-center items-center mt-3">
                                         <p>
-                                            <span>$</span> Price: 15000
+                                            <span>$</span> Price:{" "}
+                                            {singlecard.price}
                                         </p>
                                         <BsBook />
                                         <p>Credit: {singlecard.credit} hr</p>
